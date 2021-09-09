@@ -1,7 +1,49 @@
 .App {
-  text-align: center;
+  background-image: url("./pexels-lumn-399161.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.stuff {
+  position: relative;
+
+  display: inline-block;
+  top: 150px;
+}
+.text {
+  font-family: "Oxygen", sans-serif !important;
+  margin-left: 2% !important;
+}
+.btn {
+  font-family: "Inter", sans-serif !important;
+  margin-left: 2% !important;
+  height: 50px !important;
+  width: 150px !important;
+  font-weight: 500 !important;
+  background-color: black !important;
+  color: white !important;
+  border-radius: 2% !important;
+  border: 1px solid black !important;
+}
+.btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
+.link {
+  text-decoration: none !important;
+  color: inherit;
+}
+.advice {
+  font-family: "Inter", sans-serif !important;
+  margin-top: 100px !important;
 }
 
+.paper {
+  height: 90vh;
+  background-color: ivory !important;
+  margin: 2%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

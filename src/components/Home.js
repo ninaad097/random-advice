@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import "../App.css"
 export const Home = () => {
     return (
+        <>
         <div className="App">
             <div className="stuff">
          
@@ -11,5 +12,9 @@ export const Home = () => {
 
             </div>
         </div>
+        <footer>
+            <Typography className="footer">By Ninad with ❤️</Typography>
+        </footer>
+        </>
     )
 }

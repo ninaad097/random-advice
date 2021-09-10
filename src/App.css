@@ -38,6 +38,13 @@
   font-family: "Inter", sans-serif !important;
   margin-top: 100px !important;
 }
+.footer {
+  position: absolute !important;
+  bottom: 10px !important;
+  margin-left: 2% !important;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-weight: 900 !important;
+}
 
 .paper {
   height: 90vh;
@@ -47,6 +54,13 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+@media screen and (max-width: 1000px) {
+  .paper {
+    height: 100vh !important;
+    background-color: olive !important;
+    color: white !important;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
